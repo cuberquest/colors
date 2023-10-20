@@ -1,0 +1,5 @@
+div#color-box[id="color-box"] {
+  width: 200px;
+  height: 100px;
+  background-color: #000;
+}
