@@ -13,6 +13,11 @@ function randomHex() {
 
 const rHex = randomHex();
 
-document.getElementById("color-name").innerHTML += rHex;
-document.getElementById("color-box").innerHTML = "";
-document.getElementById("color-box").style.backgroundColor = rHex;
+if (document.getElementById("color") != null) {
+  let hex = document.getElementById("name");
+  let box = document.getElementById("box");
+
+  hex.innerHTML += rHex;
+  box.innerHTML = "";
+  box.style.backgroundColor = rHex;
+}
