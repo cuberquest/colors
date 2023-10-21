@@ -13,9 +13,9 @@ function randomHex() {
 
 const rHex = randomHex();
 
-let div = document.querySelector("#color"),
-hex = document.querySelector("#color-name"),
-box = document.querySelector("#color-box");
+let div = document.getElementById("color");
+let hex = document.getElementById("color-name");
+let box = document.getElementById("color-box");
 
 hex.innerHTML += rHex;
 box.innerHTML = "";
