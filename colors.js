@@ -13,7 +13,7 @@ function randomHex() {
 
 const rHex = randomHex();
 
-if (document.getElementById("color") != null) {
+if (document.getElementById("name") != null && document.getElementById("box") != null) {
   let hex = document.getElementById("name");
   let box = document.getElementById("box");
 
