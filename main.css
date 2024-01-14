@@ -1,4 +1,7 @@
-div#color-box[id="color-box"] {
+@import url(../default.css);
+* { font: 1em "Lilita One"; }
+
+#color-box {
   width: 200px;
   height: 100px;
   background-color: #000;
